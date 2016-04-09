@@ -5,12 +5,9 @@ section: blog
 
 {% if page.splash %}
   {% if page.splash contains 'http' %}
-    <!-- {% capture url %}{{page.splash}}{% endcapture %} -->
     <div class='col12 splash'>
       <img src='{{page.splash}}' alt='' />
     </div>
-  <!-- {% else %}
-    {% capture url %}{{site.baseurl}}{{page.splash}}/{% endcapture %} -->
   {% endif %}
 
 
