@@ -1,4 +1,4 @@
-baseurl: /starter
+baseurl: /
 permalink: pretty
 prose:
   rooturl: '_posts'
