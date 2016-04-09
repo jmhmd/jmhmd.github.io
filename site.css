@@ -149,7 +149,7 @@ q:after {
   }
 
 /* Code Blocks & Pre */
-code,
+/*code,
 pre {
   padding:5px;
   font-family:Menlo, Bitstream Vera Sans Mono, Monaco, Consolas, monospace;
@@ -184,6 +184,7 @@ pre {
   max-height:300px;
   overflow-y:scroll;
   }
+*/
 
 /* sub/superscripts */
 sup,
@@ -493,4 +494,3 @@ Details: http://www.positioniseverything.net/easyclearing.html
     background-size:240px 240px;
     }
   }
-
