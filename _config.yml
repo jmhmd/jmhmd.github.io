@@ -1,5 +1,6 @@
 baseurl: 
 permalink: pretty
+highlighter: rogue
 prose:
   rooturl: '_posts'
   siteurl: 'http://jmhmd.github.io/'
