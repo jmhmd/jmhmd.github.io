@@ -2,7 +2,7 @@ baseurl: /blog
 permalink: pretty
 prose:
   rooturl: '_posts'
-  siteurl: 'http://jmhmd.github.io/blog'
+  siteurl: 'http://jmhmd.github.io'
   relativeLinks: 'http://prose.github.io/blog/links.jsonp'
   media: 'media'
   metadata:
