@@ -2,8 +2,8 @@ baseurl:
 permalink: pretty
 prose:
   rooturl: '_posts'
-  siteurl: 'http://jmhmd.github.io'
-  relativeLinks: 'http://prose.github.io/blog/links.jsonp'
+  siteurl: 'http://jmhmd.github.io/'
+  relativeLinks: 'http://prose.github.io/links.jsonp'
   media: 'media'
   metadata:
     _posts:
