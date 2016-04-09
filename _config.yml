@@ -1,8 +1,6 @@
 baseurl: 
 permalink: pretty
 highlighter: rouge
-syntax-highlighting:
-	enabled: true
 prose:
   rooturl: '_posts'
   siteurl: 'http://jmhmd.github.io/'
