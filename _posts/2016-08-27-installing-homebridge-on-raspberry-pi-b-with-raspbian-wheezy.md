@@ -6,6 +6,7 @@ title: Installing homebridge on Raspberry Pi B+ with Raspbian Wheezy
 ---
 ## Getting started
 After installing node on the RPi with [nvm](https://github.com/creationix/nvm), I tried installing [homebridge](https://github.com/nfarina/homebridge) but ran into some errors when trying to install the mdns dependency:
+
 ```sh
     gyp ERR! build error
     gyp ERR! stack Error: `make` failed with exit code: 2
