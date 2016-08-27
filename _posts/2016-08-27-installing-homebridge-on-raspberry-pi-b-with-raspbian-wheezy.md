@@ -48,3 +48,15 @@ Check your version with `gcc -v`:
 And retry 
 `npm install -g homebridge` (this takes a loooong time)
 It should work now!
+
+## Update
+I was running into some trouble setting up homebridge to run in the background and on startup. I think this was probably related to using nvm to install node, which is then not installed under the superuser (I don't know, not an expert.)
+
+So to get it to work, I just used [PM2](http://pm2.keymetrics.io/), which is great. You install it with 
+`npm install -g pm2`
+
+Then run 
+`pm2 start homebridge`
+
+And it's running in the background! To set up auto-start on reboot, just run 
+`pm2 startup` and it'll spit out the code you should run to set it up.
