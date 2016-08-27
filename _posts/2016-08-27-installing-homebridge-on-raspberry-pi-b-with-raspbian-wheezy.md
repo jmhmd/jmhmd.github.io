@@ -1,7 +1,7 @@
 ---
 layout: blog
 category: blog
-published: false
+published: true
 title: Installing homebridge on Raspberry Pi B+ with Raspbian Wheezy
 ---
 ## Getting started
