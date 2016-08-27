@@ -4,7 +4,7 @@ category: blog
 published: true
 title: Installing homebridge on Raspberry Pi B+ with Raspbian Wheezy
 ---
-## Getting started
+## The problem
 After installing node on the RPi with [nvm](https://github.com/creationix/nvm), I tried installing [homebridge](https://github.com/nfarina/homebridge) but ran into some errors when trying to install the mdns dependency:
 
 ```sh
@@ -30,6 +30,8 @@ After installing node on the RPi with [nvm](https://github.com/creationix/nvm), 
     npm ERR! code ELIFECYCLE
 ```
 
+## The Fix
+
 After a lot of googling, (esp [this](https://github.com/cflurin/homebridge-punt/wiki/Running-Homebridge-on-a-Raspberry-Pi) page), I found out the gcc g++ installed by default (4.6.3) was out of date, and I needed at least version 4.8 
 Update that with 
 `sudo apt-get install gcc-4.8 g++-4.8`
@@ -44,5 +46,5 @@ Check your version with `gcc -v`:
 `gcc version 4.8.2 (Raspbian 4.8.2-21~rpi3rpi1)`
 
 And retry 
-`npm install -g homebridge` 
+`npm install -g homebridge` (this takes a loooong time)
 It should work now!
